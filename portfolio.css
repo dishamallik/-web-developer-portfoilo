@@ -1,0 +1,40 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+/* nav related styles */
+.text-primary{
+    color: orange;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-title{
+    color:  #181818;
+font-size: 45px;
+font-weight: 800;
+
+}
+nav > ul{
+    display: flex;
+    text-align: center;
+
+}
+nav  li{
+    list-style: none;
+    margin: 50px;
+}
+nav  a{
+    text-decoration: none;
+    color: black;
+}
+button{
+     background-color:  orange;
+     border-radius: 5px;
+    width: 100px;
+    height: 45px;
+    border: 0;
+    color: aliceblue;
+
+    }
