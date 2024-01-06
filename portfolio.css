@@ -89,6 +89,9 @@ main{
     width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 /* about section*/
 .about{
     padding: 130px;
@@ -117,4 +120,63 @@ font-size: 18px;
 }
 .about-info{
     text-align: center;
+}
+#what-i-do{
+    padding: 30px 150px;
+}
+.skills-container{
+    
+    display: flex;
+    gap: 24px;
+    
+    
+}
+.skills{
+    padding: 30px;
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgb(245, 228, 191);
+}
+.skill-description{
+    color: rgba(117, 116, 105, 0.613);
+}
+.resume-column-title{
+    color:  #474747;
+
+font-size: 30px;
+
+}
+.resume-container{
+
+display: flex;
+gap:50px
+}
+
+/* footer section */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 50px;
+    background: rgb(247, 235, 231);
+    padding: 30px 230px;
+    margin-top: 100px;
+    gap: 10px;
+
+}
+.section-description1{
+    text-align: left;
+    color: #757575;
+}
+.contact input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    border: 0;
+}
+.submit{
+    background-color: orange;
+
 }
